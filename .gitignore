@@ -3,6 +3,8 @@
 *.o
 *.lo
 *.la
+*.a
+*.so
 *.exe
 
 *.dsw
@@ -27,6 +29,8 @@ tests/qiniutest
 .libs/
 autom4te.cache/
 libcunit.so.1
+
+qiniu/macro.h.gch
 
 CUnit/CUnit.spec
 CUnit/CUnit/Headers/Makefile
